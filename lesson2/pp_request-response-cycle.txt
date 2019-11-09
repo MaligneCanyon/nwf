@@ -1,0 +1,10 @@
+1. HTTP request
+a) req'd components: method, path and the `Host` header
+b) optional components: parameters, all other headers, msg body
+
+2. HTTP response
+a) req'd components: status
+b) optional components: headers, msg body
+
+3. Whether you are requesting info from or sending info to a server determines
+whether a request uses GET or POST as its HTTP method.
